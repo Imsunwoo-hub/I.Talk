@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+/*학생테이블*/
+
+#container > div.setting > div.list{
+    min-height: 520px;
+    background-color: white;
+}
+#container > div.setting > div.list > table {
+    width: 100%;
+    border: 1px solid rgb(3,155,229,0.226);
+    margin-top: 10px;
+    border-collapse: collapse;
+} 
+ 
+#container > div.setting > div.list > table > thead > tr > th{
+    background-color: rgb(3,155,229,0.226);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 9px; 
+    color: black;
+}
+
+#container > div.setting > div.list > table > tbody > tr > td {
+    padding: 3px;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+#container > div.setting > div.list > table > tbody > tr > td > input 
+, div.ListView > table > tbody > tr > td > input {
+    width: 50%;
+    border: 0;
+    border-radius: 2em;
+    background: rgb(3, 155, 229, 0.5);
+    font-size: 14px;
+    color: white;
+    margin: 1px;
+    padding: 3px;
+
+}
+
+#container > div.setting > form > h2{
+    color: black;
+    border: 1px solid rgb(3,155,229);
+    padding: 8px;
+    margin-top: 17px;
+}
+
+#container > div.setting > form > h2 > input {
+    color: black;
+    border: 1px solid rgb(0,0,0,0);
+    background-color: rgb(0,0,0,0);
+    float: right;
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 20px;
+    margin: -4.5px 0 14px 0;
+    padding-bottom: 14px;
+ }
+
+ #container > div.location_wrap > form.search > input.text {
+     width: 98%;
+     font-size: 15px;
+     border: none;
+     padding: 4px;
+     background: transparent url("images/search.png") no-repeat right center;
+     background-size: 23px 22px;
+    }
+
+
+.location_wrap {
+    position: relative;
+    width: 910px;
+    float: right;
+    height: 75px;
+}
+
+.user_Search{
+    position: relative;
+    float: left;
+    margin-top: 23px;
+}
+
+.user_Search button {
+    border: 1px solid #c7c7c7;
+    position: relative;
+    width: auto;
+    background: white;
+    color: #676767;
+    padding: 0 28px 0 28px;
+}
+
+#container > div.location_wrap > div.user_Search > form.search > select {
+    font-size: 15px;
+    color: #676767;
+    margin-right: 8px;
+    padding: 3px;
+}
+
+#container > div.location_wrap > input.text {
+    border: 1px solid #adadad;
+    background-color: white;
+    margin-top: 23px;
+    padding: 3px;
+    font-size: 16px;
+    width: 65%;
+}
+
+#container > div.location_wrap > input.button {
+    border: 0;
+    background-color: rgb(3,155,229);
+    font-size: 18px;
+    margin-top: 23px;
+    margin-left: 5px;
+    color: white;
+    padding: 3px;
+    width: 7.5%;
+    float: right;
+}
+
+/*그룹관리*/
+#s {
+    border: 0;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 4.5px;
+    margin-left: 5px;
+    width: 7%;
+    background-color: rgb(3, 155, 229);
+    color: white;
+    /*그룹조회버튼 css*/
+}
+
+#container > div.setting > div.GroupList > form.searchGroup > input.text {
+    width: 90%;
+    border: 1px solid #d9d9d9d9;
+    font-size: 16px;
+    padding: 3px 10px 3px 10px;
+}
+
+#container > div.setting > div.GroupList >form.searchGroup {
+margin-top: 24px;
+}
+
+#container > div.setting > div.GroupList > div.ListView {
+width: 100%;
+min-height: 500px;
+background-color: white;
+margin-top: 10px;
+}
+
+#container > div.setting > div.GroupList > div.ListView >h3 {
+    font-size: 15px;
+    padding: 3px;
+    text-align: center;
+}
+
+#container > div.setting > div.GroupList > div.ListView > table {
+width: 100%;
+float: left;
+border: 0;
+border-collapse: collapse;
+}
+
+#container > div.setting > div.GroupList > div.ListView > table > thead > tr > th {
+background-color: rgb(3,155,229,0.226);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px;
+    color: black;
+}
+
+
+#container > div.setting > div.GroupList > div.ListView > table > tbody > tr {
+    width: 100%;
+}
+
+#container > div.setting > div.GroupList > div.ListView > table > tbody > tr> td {
+    text-align: center;
+    font-size: 13px;
+}
+
+#container > div.setting > div.GroupList > div.ListView > table > tbody > tr> td > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 5em;
+}
+
+#page_1{
+    margin-top: 5px;
+    font-size: 14px;
+}

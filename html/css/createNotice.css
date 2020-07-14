@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+#container {
+    margin-top: 0;
+}
+
+#content_subtext * {
+    list-style: none;
+}
+
+.content_main{
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+}
+
+div.content_title {
+    border-bottom: 2px solid #d6d6d6;
+}
+
+h3 {
+    font-size: 20px;
+    color: #575757;
+    padding: 20px 10px;
+}
+
+div.content_subtext {
+    margin-top: 10px;
+}
+
+table{
+    border: 0;
+    width: 100%;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+table tr {
+    border: 0;
+    border-bottom: 1px solid #d6d6d6;
+    border-width: 90%;
+}
+table th {
+    border: 0;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #eeeeee;
+    padding: 2px;
+}
+
+table td {
+    border: 0;
+}
+
+table input.writeTitle , textarea {
+    margin-left: 5px;
+    border: 1px solid #d6d6d6;
+    border-radius: 0.2em;
+    width: 98%;
+    padding: 6px 5px;
+}
+
+table textarea {
+    resize: vertical;
+    height: 300px;
+}
+
+.content_main > div.content_subtext > div.Btn {
+    padding: 5px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+
+.content_main > div.content_subtext > div.Btn > span > button {
+    font-size: 15px;
+    padding: 5px 20px;
+    font-weight: bolder;
+    margin-right: 10px;
+    background-color: rgb(27, 64, 99);
+    color: white;
+    border-radius: 0.3em;
+    border: 0;
+}
+
+.uproadfile {
+    margin-left: 5px;
+}
+
+table > tbody > tr > td > button {
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 5px;
+    border: 0;
+}

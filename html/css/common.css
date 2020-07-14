@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: rgba(241, 241, 241, 0.363)
+}
+
+div,nav,aside, article, figure {
+	display: block;
+}
+
+body, div, nav, aside, article, h1, h2, h3, h4, ol, ul, li, dl, dt, dd, p, span, form, th, td, input, textarea, select, pre, address{
+	
+	font-family: "맑은 고딕", 돋움, tahoma;
+	font-size: 12px;
+	letter-spacing: -1px;
+}
+
+img, input, select, textarea{
+	vertical-align: middle;
+}
+
+dl, ul, ol, menu, li {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+#page_1 {
+    margin-top: 5px;
+    font-size: 14px;
+}

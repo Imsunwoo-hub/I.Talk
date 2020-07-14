@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>Welcome to I.Talk</title>
+        <meta charset="utf-8" />
+        <style>
+        </style>
+        <link href="css/common.css" rel="stylesheet" type="text/css" />
+        <link href="css/main.comon.css" rel="stylesheet" type="text/css" />
+        <link href="css/main.login.css" rel="stylesheet" type="text/css" />
+
+    </head>
+    <body>
+        <div class="login" id="container">
+            <img src="images/ITalklogo.png" width="300" height="130" alt="ITAlk로고"><br>
+            <form name=login action="php/HUserLogin.php" method="post">
+            <p class="input">
+                <input name="userid" id=userid class="text" type="text" maxlength="8" placeholder="아이디(학번8자리)" />
+            </p>
+            <p class="input">
+                <input name="userpassword" id=userpassword class="text" type="password" maxlength="20" placeholder="비밀번호" />
+            </p>
+            <input type="hidden" name="redirect" value="/">
+            <p class="submit">
+                <input class="text" type="submit" value="Login"/>
+            </p>
+            </form>
+            <label class="autologin">
+                <input type="checkbox" name="autologin" value="1">
+                자동로그인<br>
+            </label>
+            <p class="register">
+                <span> ● 아직 I.Talk의 회원이 아니신가요?</span>
+                <a href="register.html">회원가입 하기</a>
+            </p>
+            
+    </div>
+
+
+</body>
+</html>
