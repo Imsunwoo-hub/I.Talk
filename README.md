@@ -36,6 +36,12 @@
 <img src="./MD_imgs/sys.PNG" alt="sys" style="zoom:60%;" />
 <br>
 
+## 다이어그램
+<img src="./MD_imgs/class.PNG" alt="sys" style="zoom:60%;" />
+<br>
+<img src="./MD_imgs/db.PNG" alt="sys" style="zoom:60%;" />
+<br>
+
 ## 개발 결과
    1. Android App
     <img src="./MD_imgs/app.PNG" alt="app" style="zoom:60%;" />
